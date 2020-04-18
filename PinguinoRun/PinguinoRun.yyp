@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "a329a677-7f18-4f45-b104-8cf077714b86",
+            "Value": {
+                "id": "43ff04cd-cb6d-4eb6-88c0-995b9cde10ab",
+                "resourcePath": "sprites\\spr_oso\\spr_oso.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a5ccc125-a1a6-4b6a-b0ad-83a8c4d41760",
             "Value": {
                 "id": "2f71ad7b-0c94-47ad-ad50-5f6893f6f20d",
@@ -260,6 +268,14 @@
                 "id": "2dc9d29d-9621-4eef-816e-fba7a53c2ffd",
                 "resourcePath": "views\\af0cbace-0e8e-4c6b-ba51-0daf0bb49eb0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "af67dcc6-419a-4b42-84b0-e21dd307533b",
+            "Value": {
+                "id": "160a130a-e75f-489c-8176-f3cdf4367453",
+                "resourcePath": "scripts\\set_globals\\set_globals.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -316,6 +332,14 @@
                 "id": "d89dce85-9b78-4db2-b0cf-d7b19a7e12cf",
                 "resourcePath": "sprites\\spr_penguin_walk\\spr_penguin_walk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d966c13f-2302-48e1-b429-0c4a28a81450",
+            "Value": {
+                "id": "f274a878-6b59-426b-8aa6-dc6e899c0ff0",
+                "resourcePath": "objects\\obj_fish\\obj_fish.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -394,7 +418,8 @@
     "script_order": [
         "f6dc9811-7848-4137-ac88-5a6189195377",
         "e33d5d8c-840f-4fde-941e-e41fc588f74e",
-        "a0770737-3072-4e8e-80da-dff59e018ac0"
+        "a0770737-3072-4e8e-80da-dff59e018ac0",
+        "af67dcc6-419a-4b42-84b0-e21dd307533b"
     ],
     "tutorial": ""
 }
