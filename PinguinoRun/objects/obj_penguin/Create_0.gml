@@ -1,15 +1,15 @@
 /// @description CREATION VARIABLES
 
-life = 5;
-
 dir = 0;
 
 tilemap = layer_tilemap_get_id("Collision");
 
-movespeed = 2;
-runspeed = 3;
+movespeed = 1;
+runspeed = 2;
 finalspeed = 0;
 jumpspeed = 3;
+jumpsmax = 1;
+jumps = jumpsmax;
 jump = false;
 
 grav = 0.2;
@@ -21,9 +21,11 @@ zspd = 0;
 slide = false;
 
 z = 0;
-floorZ = false;
+zprevious = z;
+floorZ = 0;
+floorD = z;
 
-height = sprite_height;
+height = 16;
 
 sprite_idle = spr_penguin;
 sprite_walk = spr_penguin_walk;

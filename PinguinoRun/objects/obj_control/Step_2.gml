@@ -1,6 +1,5 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+/// @description DEPTH
 
 with(all) {
-	depth -= bbox_bottom + z*2;
+	depth = -bbox_bottom + z*2;
 }
