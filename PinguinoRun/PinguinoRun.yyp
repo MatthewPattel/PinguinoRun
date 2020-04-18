@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "708f7855-8823-4605-8788-f534d7c10147",
+            "Value": {
+                "id": "ac5c2263-1929-4d07-a12a-5eb9ec284742",
+                "resourcePath": "sprites\\spr_penguin_slide\\spr_penguin_slide.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7a597b65-7c2f-43b4-8655-7acb84092f0a",
             "Value": {
                 "id": "a6f1b3ee-da59-4ea0-b2c8-271622a27739",
