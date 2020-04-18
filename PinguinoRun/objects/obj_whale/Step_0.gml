@@ -1,7 +1,5 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-z = 0;
+y = set_wave(y_initial + 30,y_initial + 240,1,0);
 
-image_speed = 0;
-image_index = choose(0,1,2,3);
