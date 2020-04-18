@@ -4,10 +4,12 @@ life = 5;
 
 dir = 0;
 
+tilemap = layer_tilemap_get_id("Collision");
+
 movespeed = 2;
-runspeed = 4;
+runspeed = 3;
 finalspeed = 0;
-jumpspeed = 2;
+jumpspeed = 3;
 jump = false;
 
 grav = 0.2;
