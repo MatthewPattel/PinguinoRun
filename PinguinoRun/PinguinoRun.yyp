@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "e857eab0-c1a6-41c7-91a7-0ab23317082a",
+            "Value": {
+                "id": "214ef7af-f5fa-4ffe-b06e-e8475de7462d",
+                "resourcePath": "sprites\\spr_penguin_fall\\spr_penguin_fall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "501812b8-6902-476b-9cb6-c06b3a14a38d",
