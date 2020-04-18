@@ -7,3 +7,4 @@ if keyboard_check_released(vk_escape) {
 if keyboard_check_released(vk_f11) or keyboard_check_released(ord("F")) {
     window_set_fullscreen(!window_get_fullscreen());
 }
+

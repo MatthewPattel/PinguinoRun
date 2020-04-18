@@ -40,6 +40,10 @@ if (finalspeed > 0) {
 	sprite_index = sprite_idle;
 }
 
+if keyboard_check(ord("G")) {
+	obj_penguin.sprite_index = sprite_fall;
+}
+
 if (key_jump) {
 	z = jumpspeed;
 }
