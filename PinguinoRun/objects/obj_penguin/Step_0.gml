@@ -43,7 +43,11 @@ if (finalspeed > 0) {
 
 
 if (key_jump) {
-	z = jumpspeed;
+	zspd = -jumpspeed;
+}
+
+if (zspd < 0) {
+	zspd += grav;
 }
 
 if (z > 0) and (!key_jump_held) { z = max(z, -jumpspeed/2); }// else { z = 0; }

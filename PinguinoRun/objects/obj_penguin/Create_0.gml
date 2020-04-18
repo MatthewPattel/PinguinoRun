@@ -8,16 +8,20 @@ movespeed = 2;
 runspeed = 4;
 finalspeed = 0;
 jumpspeed = 2;
+jump = false;
 
 grav = 0.2;
 
 hspd = 0;
 vspd = 0;
+zspd = 0;
 
 slide = false;
 
 z = 0;
-jump = false;
+floorZ = false;
+
+height = sprite_height;
 
 sprite_idle = spr_penguin;
 sprite_walk = spr_penguin_walk;
