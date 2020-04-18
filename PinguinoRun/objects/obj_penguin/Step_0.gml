@@ -40,11 +40,16 @@ if (finalspeed > 0) {
 	sprite_index = sprite_idle;
 }
 
+
+
 if (key_jump) {
 	z = jumpspeed;
 }
 
-if (z > 0) and (!key_jump_held) { z = min(z, jumpspeed/2); }
+if (z > 0) and (!key_jump_held) { z = max(z, -jumpspeed/2); }// else { z = 0; }
+
+if (z < 0) { z = 0; }
+if (z != 0) { z -= grav;  }
 
 // Move
 hspd = lengthdir_x(finalspeed, dir)
