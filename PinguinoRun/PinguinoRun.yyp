@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "2d2df423-b26a-41c7-ac16-afd8f605be22",
+            "Value": {
+                "id": "b782c689-6513-4a87-a576-1f610652384e",
+                "resourcePath": "sprites\\pinguinRun_textures\\pinguinRun_textures.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "392feab7-34f1-450f-a315-36033a77da06",
             "Value": {
                 "id": "5cce1eef-74ac-40f4-949a-22a69eb5ab6e",
