@@ -40,24 +40,50 @@ if (finalspeed > 0) {
 	sprite_index = sprite_idle;
 }
 
-
-
 if (key_jump) {
 	zspd = -jumpspeed;
 }
 
-if (zspd < 0) {
+if (zspd < 10) {
 	zspd += grav;
 }
 
 if (z > 0) and (!key_jump_held) { z = max(z, -jumpspeed/2); }// else { z = 0; }
 
-if (z < 0) { z = 0; }
-if (z != 0) { z -= grav;  }
-
-// Move
 hspd = lengthdir_x(finalspeed, dir)
 vspd = lengthdir_y(finalspeed, dir);
+/*
+var bbox_side;
+if (hspd > 0) bbox_side = bbox_right; else bbox_side = bbox_left;
+if (tilemap_get_at_pixel(tilemap, bbox_side+hspd, bbox_top) != 0) or (tilemap_get_at_pixel(tilemap, bbox_side+hspd, bbox_bottom) != 0) {
+	if (hspd > 0) x = x - (x mod 16) + 15 - (bbox_right - x);
+	else x = x - (x mod 16) - (bbox_left - x);
+	hspd = 0;
+}
 
+if (vspd > 0) bbox_side = bbox_bottom; else bbox_side = bbox_top;
+if (tilemap_get_at_pixel(tilemap, bbox_left, bbox_side+vspd) != 0) or (tilemap_get_at_pixel(tilemap, bbox_right, bbox_side+vspd) != 0) {
+	if (vspd > 0) y = y - (y mod 16) + 15 - (bbox_bottom - y);
+	else y = y - (y mod 16) - (bbox_top - y);
+	vspd = 0;
+}
+*/
+
+if (z+zspd > floorZ) {
+	zspd = 0;
+	z = floorZ;
+}
+
+
+if (tile_meeting(x + hspd, y, tilemap)) {
+	hspd = 0;
+}
+
+if (tile_meeting(x, y + vspd, tilemap)) {
+	vspd = 0;
+}
+
+
+// Move
 x += hspd;
 y += vspd-z;
