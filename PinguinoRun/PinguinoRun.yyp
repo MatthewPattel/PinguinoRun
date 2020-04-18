@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0ada902c-2ce5-4606-bdd2-c30d7ac95fda",
+            "Value": {
+                "id": "9eb01645-9e25-464c-b231-0c6d94a39cd8",
+                "resourcePath": "sprites\\spr_iglu\\spr_iglu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "129a72b3-38ec-4a18-aaaa-2d74310959db",
             "Value": {
                 "id": "149894ee-02eb-4f19-be99-2a399db7ca4d",
