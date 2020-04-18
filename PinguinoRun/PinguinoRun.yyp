@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "5eb494e1-4182-4081-8f17-a04f01b02996",
+            "Value": {
+                "id": "19cace8a-d0cf-4aa5-8360-f2b25b98042c",
+                "resourcePath": "sprites\\spr_iceberg\\spr_iceberg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7a597b65-7c2f-43b4-8655-7acb84092f0a",
             "Value": {
                 "id": "a6f1b3ee-da59-4ea0-b2c8-271622a27739",
