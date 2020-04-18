@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "d25a76fc-9260-4dc2-9981-1372a2c2f541",
+            "Value": {
+                "id": "d89dce85-9b78-4db2-b0cf-d7b19a7e12cf",
+                "resourcePath": "sprites\\spr_penguin_walk\\spr_penguin_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "df908865-0370-4f04-807e-a104d96701d3",
             "Value": {
                 "id": "e2ea98fd-6210-456d-bb23-8c65e2194bdd",
