@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00d84e60-5982-4772-81b5-4dbfae4bd44d",
+            "Value": {
+                "id": "03d89437-7685-426b-9275-be5aa5e6ef3c",
+                "resourcePath": "scripts\\set_wave\\set_wave.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "01842d9f-02d2-4786-a438-4b411393581a",
             "Value": {
                 "id": "e7e67929-4317-4401-b189-47d0656afa86",
@@ -76,6 +84,14 @@
                 "id": "149894ee-02eb-4f19-be99-2a399db7ca4d",
                 "resourcePath": "views\\129a72b3-38ec-4a18-aaaa-2d74310959db.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "154857b1-58a9-4dc2-9880-433a0e21f27a",
+            "Value": {
+                "id": "bb380695-287d-41b7-a94c-2698b07596b6",
+                "resourcePath": "sprites\\spr_oso_dormido\\spr_oso_dormido.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -151,11 +167,35 @@
             }
         },
         {
+            "Key": "60593048-9c88-4a75-9ea0-b238aae633f6",
+            "Value": {
+                "id": "78718c69-545f-46bc-97ce-cf68552525ad",
+                "resourcePath": "sprites\\spr_fish\\spr_fish.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "68d4c0ac-c000-478a-a8c8-4d274cae4cf8",
+            "Value": {
+                "id": "5a8f1362-1ce3-4344-bc05-92812c6137f6",
+                "resourcePath": "sprites\\spr_orca\\spr_orca.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a84322c-d85c-4181-82a5-07b9f0cc1411",
             "Value": {
                 "id": "0b21aa7a-4b84-4ee3-bb1a-4cd01cb2b3e1",
                 "resourcePath": "sprites\\spr_control\\spr_control.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6e1129f5-aa1b-4e54-9a05-8a9df200e4ba",
+            "Value": {
+                "id": "4ebabd5a-dbcb-43b4-9d4c-99ad6ac0486b",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -295,10 +335,17 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "b43b4236-8c64-439c-afdd-8d3ae85e6a50",
             "Value": {
                 "id": "a7b5646f-0527-4a36-9c7a-96d8afa253b1",
                 "resourcePath": "objects\\obj_solid\\obj_solid.yy",
+=======
+            "Key": "b48aa87a-2f7a-47c2-b174-bd01398510ee",
+            "Value": {
+                "id": "95173861-a76b-4086-9ea1-54fa38baa347",
+                "resourcePath": "objects\\obj_whale\\obj_whale.yy",
+>>>>>>> master
                 "resourceType": "GMObject"
             }
         },
@@ -459,7 +506,8 @@
         "f6dc9811-7848-4137-ac88-5a6189195377",
         "e33d5d8c-840f-4fde-941e-e41fc588f74e",
         "a0770737-3072-4e8e-80da-dff59e018ac0",
-        "af67dcc6-419a-4b42-84b0-e21dd307533b"
+        "af67dcc6-419a-4b42-84b0-e21dd307533b",
+        "00d84e60-5982-4772-81b5-4dbfae4bd44d"
     ],
     "tutorial": ""
 }
